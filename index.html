@@ -1,13 +1,512 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Youngblood Web</title>
-  </head>
-  <body>
-    <p>Welcome to the Youngblood web. The following sites are available:</p>
-    <ul>
-      <li><a href="https://carl.youngbloods.org">Carl's web site</a></li>
-    </ul>
-  </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>Carl Youngblood</title>
+<style type="text/css">
+body {
+	font-size:         small;
+	font-family:       Tahoma, Arial, Sans-Serif;
+	text-align:        center;
+}
+html body {
+	font-size:         x-small;  /* for IE5/Win */
+	f\ont-size:        small;    /* for other IE versions */
+}
+
+#container {
+	margin:            0 auto;
+	width:             600px;
+	text-align:        left;
+}
+
+h1 {
+	font-size:         185%;
+	border-bottom:     1px solid #000;
+	padding-bottom:    10px;
+	width:             600px;
+	clear:             both;
+}
+
+h2 {
+	font-size:         140%;
+	padding-top:       10px !important;
+	padding-top:       5px;  /* for IE */
+	border-bottom:     1px solid #000;
+	margin-left:       30px;
+	padding-bottom:    10px;
+	width:             570px;
+	clear:             both;
+}
+
+p {
+	margin-top:        3px;
+	margin-left:       45px;
+	width:             93%;
+}
+
+a {
+	color:             #000;
+	text-decoration:   underline;
+}
+
+a:hover {
+	text-decoration:   none;
+}
+
+#contactinfo {
+	width:             100%;
+	float:             left;
+	margin:            -7px 0 20px 0 !important;
+	margin:            -10px 0 5px 0; /* for IE */
+	padding-top:       0px;
+	padding-bottom:    5px !important;
+	padding-bottom:    0px;  /* for IE */
+	padding-left:      0px;
+}
+
+#contactinfo ul, #contactinfo li {
+	float:             left;
+	font-size:         75%;
+	list-style:        square outside none;
+	padding-right:     20px;
+	border:            none;
+}
+
+#contactinfo .leftmost {
+	list-style:        none;
+}
+
+.title {
+	float:             left;
+	margin-left:       45px !important;
+	margin-left:       22px;  /* for IE */
+	font-weight:       bold;
+}
+
+.dates {
+	text-align:        right;
+}
+
+.organization {
+	float:             left;
+	margin-left:       45px !important;
+	margin-left:       22px;  /* for IE */
+}
+
+.location {
+	text-align:        right;
+}
+
+#leftawards {
+	margin-left:       45px !important;
+	margin-left:       22px; /* for IE */
+	float:             left;
+	width:             270px;
+	margin-bottom:     0 !important;
+	margin-bottom:     -15px /* for IE */;
+}
+
+#rightawards {
+	float:             right;
+	width:             260px;
+	margin:            0;
+	padding:           0;
+}
+
+#conferences {
+	margin-left:       45px !important;
+	margin-left:       22px; /* for IE */
+	float:             left;
+	width:             270px;
+	margin-bottom:     0 !important;
+	margin-bottom:     -15px /* for IE */;
+}
+
+#rightconf {
+	float:             right;
+	width:             260px;
+	margin:            0;
+	padding:           0;
+}
+
+.conference {
+	padding-bottom: 5px;
+}
+
+.award {
+	font-weight:       bold;
+}
+
+.awardorg {
+	padding-bottom:    15px;
+}
+
+.awardnote {
+	margin-top:        -15px;
+	padding-bottom:    15px;
+}
+
+ul.left {
+	float:               left;
+	width:               270px;
+	margin:              0px;
+	padding:             0px 0px 40px !important;
+	padding:             0; /* for IE */
+	border:              0px none;
+	list-style-position: inside;
+	list-style-type:     square;
+	position:            relative;
+	left:                45px;
+}
+
+ul.right {
+	float:               right;
+	width:               260px;
+	margin:              0px;
+	padding:             0px 0px 40px !important;
+	padding:             0; /* for IE */
+	border:              0px none;
+	list-style-position: inside;
+	list-style-type:     square;
+}
+</style>
+<script type="text/javascript">
+function sendMailTo(name, company, domain)
+{
+	locationstring = 'mai' + 'lto:' + name + '@' + company + '.' + domain;
+	window.location.replace(locationstring);
+}
+</script>
+</head>
+<body>
+<div id="container">
+
+<h1>Carl Youngblood</h1>
+
+<ul id="contactinfo">
+<li class="leftmost"><a href="javascript:sendMailTo('carl','youngbloods','org')">&#99;&#97;&#114;&#108;&#64;&#121;&#111;&#117;&#110;&#103;&#98;&#108;&#111;&#111;&#100;&#115;&#46;&#111;&#114;&#103;</a></li>
+<li><a href="http://youngbloods.org/">http://youngbloods.org/</a></li>
+<li>+1 8019374461</li>
+</ul>
+
+
+<h2>About Me</h2>
+
+<p>I've been working as a software engineer for over twenty years, specializing
+in highly scalable web services and applications. I'm currently at Divvy, where my
+team and I are changing the way people track corporate expenses. I'm especially
+interested in blockchain technology and smart contracts. In addition to my work,
+I'm passionate about philosophy, transhumanism and the performing arts.</p>
+
+
+<h2>Experience</h2>
+
+<div class="title">VP of Engineering</div>
+<div class="dates">Jul 2016 - Present</div>
+<div class="organization"><a href="https://getdivvy.com/">Divvy</a></div>
+<div class="location">Lehi, UT</div>
+
+<p>Divvy has partnered with card issuers to revolutionize corporate expense
+management. Instead of collecting receipts after employees spend money, Divvy
+issues cards, both physical and virtual, in a handy mobile app. The spending
+constraints on these cards are closely controlled, and receipts are generated
+automatically from real-time transaction data. We are currently very close
+to launch. I hired and built the engineering team from scratch, and have been
+heavily involved in developing the core product.</p>
+
+<div class="title">Senior Software Engineer</div>
+<div class="dates">Dec 2015 - Jul 2016</div>
+<div class="organization"><a href="https://podium.co/">Podium</a></div>
+<div class="location">Lehi, UT</div>
+
+<p>Podium helps companies track and improve customer satisfaction using online
+	reviews and other customer interaction tools. When I was hired, they had just
+	been accepted into Y-Combinator's next round. We spent a few months working
+	hard on product improvements out in Mountain View while being mentored as part
+	the YC cohort.</p>
+
+<div class="title">Chief Technology Officer</div>
+<div class="dates">Aug 2014 - Nov 2015</div>
+<div class="organization"><a href="https://www.worldtable.co/">The World Table</a></div>
+<div class="location">Orem, UT</div>
+
+<p>The World Table's tools and algorithms enrich online interactions by
+embedding consensus-based virtue metrics into the web, for individuals,
+organizations, devices, web locations and more, in a robust and decentralized
+manner. I directed and helped to build the company's flagship product (a comment
+plugin with community moderating capabilities) from inception to launch,
+deciding on the technology stack, setting up automated deployment and testing,
+issue tracking, and designing the frontend and backend to be Internet-scalable.
+This project was written primarily in ES5 Javascript using the Google Polymer
+web component framework and Firebase for real-time data persistence. We also
+founded the <a href="https://openreputation.net/">Open Reputation</a> project
+for blockchain-based reputation solutions.</p>
+
+<div class="title">Senior Engineer</div>
+<div class="dates">Dec 2009 - Aug 2014</div>
+<div class="organization"><a href="https://www.cisco.com/">Cisco Systems Inc.</a></div>
+<div class="location">Lysaker, Norway and Reading, England</div>
+
+<p>
+At Cisco I helped to build a set of web services and web UIs for managing
+large-scale advanced testing scenarios of Cisco Telepresence endpoints and
+infrastructure products. In addition to an opportunity to sharpen my technical
+skills, the nearly five years that I spent abroad in Norway and England were
+invaluable opportunities to be exposed to different languages, cultures, and
+different ways of managing projects and doing business.
+</p>
+
+<div class="title">Founder</div>
+<div class="dates">Mar 2007 - Dec 2009</div>
+<div class="organization"><a href="https://www.confreaks.tv/">Confreaks, LLC</a></div>
+<div class="location">Salt Lake City, UT</div>
+
+<p>Confreaks specializes in recording conferences, seminars and workshops, and
+in providing networking and other technical services to conferences. Our debut
+event was the recording of <a
+href="http://confreaks.com/events/mwrc2007">MountainWest RubyConf 2007</a>, and
+we went on to record a number of other conferences, many of which helped to
+strengthen the Ruby and Agile communities. We developed a unique method for
+recording and preparing our footage that takes advantage of our programming
+skills to do things more efficiently than conventional video production
+companies. I sold my share in the company in December of 2009 when I moved to
+Norway.</p>
+
+<div class="title">Chief Scientist</div>
+<div class="dates">May 2007 - Aug 2009</div>
+<div class="organization"><a href="http://surgeworks.com/">Surgeworks, Inc.</a></div>
+<div class="location">Salt Lake City, UT</div>
+
+<p>Surgeworks is a consulting firm specializing in agile development with
+offshore teams. During my tenure at Surgeworks, I was in charge of all the
+company's Rails projects, spending about half my time writing code and
+architecting software, and the other half managing teams of offshore developers.
+I managed our projects using <a
+href="http://en.wikipedia.org/wiki/Agile_software_development">agile
+methods</a>, including developing product backlogs with <a
+href="http://en.wikipedia.org/wiki/User_story">user stories</a>, fixed-length
+sprints initiated by sprint planning meetings, daily <a
+href="http://en.wikipedia.org/wiki/Scrum_(development)">scrum</a> meetings and
+sprint retrospectives.</p>
+
+<div class="title">Chief Technology Officer</div>
+<div class="dates">Jan 2006 - May 2007</div>
+<div class="organization"><a href="https://ccsloans.com/">Construction Capital Source</a></div>
+<div class="location">Salt Lake City, UT</div>
+
+<p>I managed the IT infrastructure and internal software development projects of
+Construction Capital Source, a construction lending company with offices
+throughout the Intermountain West. I provided strategic technical expertise to
+the company's executives, and developed customized software solutions that gave
+them a competitive advantage in the marketplace. My primary focus was the
+development of a loan management system built in Ruby on Rails.</p>
+
+<div class="title">Embedded Software Engineer</div>
+<div class="dates">Mar 2004 - Jan 2006</div>
+<div class="organization"><a href="http://www.boeing.com/">The Boeing Company</a></div>
+<div class="location">Seattle, Washington</div>
+
+<p>At Boeing I was a member of the Information Assurance team for a subproject
+under the Department of Defense's Future Combat Systems project. My team was
+responsible for designing and implementing a security API that provides
+authentication, data integrity, confidentiality and non-repudiation capabilities
+to other services in the FCS operating environment.</p>
+
+<div class="title">Software Engineer</div>
+<div class="dates">Jan 2001 - May 2002</div>
+<div class="organization"><a href="http://www.legato.com/">Legato Systems, Inc.</a></div>
+<div class="location">Orem, Utah</div>
+
+<p>NT driver development (Windows NT, 2000 and XP) for partition mirroring
+software. Worked specifically with the network level of mirroring, developing a
+TDI client driver for Windows 2000. Also developed a Windows Registry filter
+driver. Was retained for a period of six months after office closure to help
+hand off projects to company's other offices.</p>
+
+<div class="title">Manager of Strategic Projects</div>
+<div class="dates">Mar 2000 - Dec 2000</div>
+<div class="organization"><a href="https://www.omniture.com/">Omniture</a></div>
+<div class="location">Orem, Utah</div>
+
+<p>Provided technical expertise to the CTO. Investigated the feasibility of new
+technologies and software methodologies, analyzing their impact on the
+development cycle, software performance, and the bottom line. Conducted
+competitor analysis. Developed and improved standards of software development.
+Managed company patents. Coded prototypes for experimental projects.</p>
+
+<div class="title">Senior Software Engineer</div>
+<div class="dates">May 1999 - Feb 2000</div>
+<div class="organization"><a href="https://www.omniture.com/">Omniture</a></div>
+<div class="location">Orem, Utah</div>
+
+<p>Helped architect a fully-scalable web analytics engine based on commodity
+hardware that handles billions of requests daily. Developed web applications
+using PHP, HTML/CSS, Javascript, Java, C++ and MySQL on Linux/Apache web
+servers. Involved in product development from conceptual phase all the way
+through design, implementation, and testing. Promoted to Manager of Strategic
+Projects.</p>
+
+<div class="title">Software Engineer</div>
+<div class="dates">Jun 1997 -  Dec 1998</div>
+<div class="organization"><a href="http://www.netschools.com/">Netschools Corporation</a></div>
+<div class="location">Provo, Utah</div>
+
+<p>Developed applications for in-classroom learning system, including Windows 95
+drivers, and Windows applications in MFC. Served as programming team lead in
+certification department.</p>
+
+
+<h2>Education</h2>
+
+<div class="title">MS, Computer Science, PMP</div>
+<div class="dates">June 2006</div>
+<div class="organization"><a href="http://www.cs.washington.edu/prospective_students/pmp/">University of Washington</a></div>
+<div class="location">Seattle, Washington</div>
+<p>GPA 3.70</p>
+
+<div class="title">Graduate studies, Computer Science</div>
+<div class="dates">1.5 years of attendance</div>
+<div class="organization"><a href="https://home.byu.edu/home/">Brigham Young University</a></div>
+<div class="location">Provo, Utah</div>
+
+<p>Left CS Masters Program at BYU to accept position at Boeing and transfer to
+the University of Washington Professional Masters Program in Computer
+Science.</p>
+
+<div class="title">BA, Portuguese, Music Minor, Computer Science Minor Equivalent</div>
+<div class="dates">Aug 2002</div>
+<div class="organization"><a href="https://home.byu.edu/home/">Brigham Young University</a></div>
+<div class="location">Provo, Utah</div>
+<p>Major GPA 3.90. Cumulative GPA 3.61.</p>
+
+
+
+<h2>Affiliations and Awards</h2>
+
+<div id="leftawards">
+	<div class="award">Organizer and Contributor</div>
+	<div class="awardorg"><a href="https://www.meetup.com/blockchain-utah/">Blockchain Utah</a></div>
+
+	<div class="award">Co-Founder</div>
+	<div class="awardorg"><a href="https://openreputation.net/">OpenReputation</a>, a decentralized blockchain-based reputation system</div>
+
+	<div class="award">Speaker and Organizer</div>
+	<div class="awardorg"><a href="https://www.youtube.com/user/transfigurism">MTAConf 2012-2017</a></div>
+
+	<div class="award">Member and Contributor</div>
+	<div class="awardorg"><a href="https://www.meetup.com/ethereum/">London Ethereum Meetup Group</a></div>
+
+	<div class="award">Speaker and Organizer</div>
+	<div class="awardorg"><a href="https://www.youtube.com/playlist?list=PLD28C25910E1CAFC3">Parallels and Convergences 2009</a></div>
+
+	<div class="award">Open Source Project Author</div>
+	<div class="awardorg"><a href="https://github.com/cayblood/sbn">Simple Bayesian Networks Ruby Gem</a></div>
+
+	<div class="award">Speaker</div>
+	<div class="awardorg"><a href="http://confreaks.tv/videos/mwrc2007-simple-bayesian-networks-with-ruby">MountainWest Ruby Conference 2007</a></div>
+
+	<div class="award">Member and Contributor</div>
+	<div class="awardorg"><a href="http://irb.no">irb.no (Oslo Ruby Users)</a></div>
+
+	<div class="award">Member and Contributor</div>
+	<div class="awardorg"><a href="http://utruby.org/users/cayblood">Utah Ruby Users Group</a></div>
+</div>
+
+<div id="rightawards">
+	<div class="award">GIAC Security Essentials Certification</div>
+	<div class="awardorg"><a href="http://www.giac.org/">Global Information Assurance Corporation</a></div>
+
+	<div class="award">Accredited Portuguese Translator</div>
+	<div class="awardorg"><a href="http://www.atanet.org/">American Translators Association</a></div>
+
+	<div class="award">Open Source Contributor</div>
+	<div class="awardorg"><a href="https://github.com/cayblood">Projects I'm working on</a> on github</div>
+
+	<div class="award">Director and Vice President</div>
+	<div class="awardorg"><a href="https://transfigurism.org/about/board-of-directors">Mormon Transhumanist Association</a></div>
+
+	<div class="award">Undergraduate Research Award</div>
+	<div class="awardorg"><a href="http://orca.byu.edu/">BYU Office of Research and Creative Activities</a></div>
+
+	<div class="award">Advanced Placement Scholar</div>
+	<div class="awardorg"><a href="http://www.collegeboard.com/">The College Board</a></div>
+	<div class="awardnote">
+	Computer Science (perfect score), English (perfect score), and European History.
+	</div>
+
+	<div class="award">Sterling Scholar, Music</div>
+	<div class="awardorg"><a href="http://www.phs.provo.edu/">Provo High School</a></div>
+</div>
+
+<h2>Conferences and Workshops</h2>
+<div id="conferences">
+	<div class="conference"><a href="https://www.youtube.com/user/transfigurism">MTAConf 2017</a></div>
+	<div class="conference"><a href="https://www.money2020.com/">Money 20/20 2016</a></div>
+	<div class="conference"><a href="https://www.youtube.com/user/transfigurism">MTAConf 2016</a></div>
+	<div class="conference"><a href="https://www.youtube.com/user/transfigurism">MTAConf 2015</a></div>
+	<div class="conference"><a href="https://www.youtube.com/user/transfigurism">MTAConf 2014</a></div>
+	<div class="conference"><a href="https://www.meetup.com/ethereum/events/179280862/">Ethereum Mini-Hackathon</a></div>
+	<div class="conference"><a href="http://ng-conf.ng-learn.org/">ng-conf 2014</a></div>
+	<div class="conference"><a href="https://www.youtube.com/user/transfigurism">MTAConf 2013</a></div>
+  <div class="conference"><a href="http://nordicruby.org/">Nordic RubyConf 2013</a></div>
+	<div class="conference"><a href="https://www.youtube.com/user/transfigurism">MTAConf 2012</a></div>
+  <div class="conference"><a href="http://www.confreaks.com/events/rubyconf2012">RubyConf 2012</a></div>
+  <div class="conference"><a href="http://2011.nordicruby.org/">Nordic RubyConf 2011</a></div>
+  <div class="conference"><a href="http://confreaks.net/events/rubyconf2010">RubyConf 2010</a></div>
+  <div class="conference"><a href="http://jz10.java.no/">JavaZone 2010</a></div>
+  <div class="conference"><a href="http://confreaks.net/events/rubyconf2009">RubyConf 2009</a></div>
+  <div class="conference"><a href="http://mwrc2009.confreaks.com/">MountainWest RubyConf 2009</a></div>
+	<div class="conference"><a href="http://aac2009.confreaks.com/events/aac2009">acts_as_conference 2009</a></div>
+</div>
+
+<div id="rightconf">
+  <div class="conference"><a href="http://rubyconf2008.confreaks.com/">RubyConf 2008</a></div>
+  <div class="conference"><a href="http://smidig2008.no/">Smidig 2008 Agile Development Conference</a></div>
+	<div class="conference"><a href="http://rubyhoedown2008.confreaks.com/">Ruby Hoedown 2008</a></div>
+	<div class="conference"><a href="http://en.oreilly.com/rails2008/public/content/home">RailsConf 2008</a></div>
+  <div class="conference"><a href="http://2008.goruco.com/">Gotham Ruby Conference 2008</a></div>
+  <div class="conference"><a href="http://mtnwestrubyconf2008.confreaks.com/">MountainWest RubyConf 2008</a></div>
+  <div class="conference"><a href="http://confreaks.com/events/rubyconf2007">RubyConf 2007</a></div>
+  <div class="conference"><a href="http://rubyhoedown2007.confreaks.com/">Ruby Hoedown 2007</a></div>
+  <div class="conference"><a href="http://smidig2007.no/">Smidig 2007 Agile Development Conference</a></div>
+  <div class="conference"><a href="http://conferences.oreillynet.com/rails/">RailsConf 2007</a></div>
+  <div class="conference"><a href="http://confreaks.com/events/mwrc2007">MountainWest Ruby Conference 2007</a></div>
+  <div class="conference">RubyConf 2006</div>
+  <div class="conference">RailsConf 2006</div>
+  <div class="conference">Building of Basecamp, Seattle 2005</div>
+  <div class="conference">SANS Security Essentials Bootcamp 2004</div>
+  <div class="conference">OSR Advanced Driver Development 2001</div>
+</div>
+
+<h2>Skills and Hobbies</h2>
+
+<ul class="left">
+	<li>Blockchain tech and smart contracts</li>
+	<li>Javascript, React, Polymer, Angular</li>
+  <li>Elixir, Ruby, Python, PHP, C++, Scheme</li>
+  <li>Devops</li>
+  <li>TDD, BDD, Rspec, Cucumber</li>
+  <li>Agile development methods</li>
+  <li>PostgreSQL, MySQL, sqlite</li>
+  <li>Phoenix, Ruby on Rails</li>
+  <li>Scalable web development</li>
+  <li>Cloud computing and devops</li>
+</ul>
+
+<ul class="right">
+	<li>HTML5/CSS, web standards compliance</li>
+  <li>Photoshop, amateur design skills</li>
+  <li>Linux, OS X, Windows, DOS</li>
+  <li>Cryptography and security</li>
+  <li>Music (clarinet, sax., guitar, piano)</li>
+  <li>Woodworking and other crafts</li>
+  <li>Philosophy</li>
+  <li>Fluent in Portuguese</li>
+  <li>Conversational Norwegian and Spanish</li>
+</ul>
+
+</div> <!-- end container div -->
+</body>
 </html>
